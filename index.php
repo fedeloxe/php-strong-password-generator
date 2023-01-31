@@ -18,7 +18,7 @@ include __DIR__ . './function.php';
         <div class="row">
             <div class="col-8 mt-5">
                 <h2>Generatore di password</h2>
-                <form action="" class="d-flex mt-5" method="GET">
+                <form action="./showPass.php" class="d-flex mt-5" method="GET">
                     <input type="number" class="form-control me-5" placeholder="lunghezza password" name="pass">
                     <input class="btn btn-primary" type="submit" value="generate">
 
